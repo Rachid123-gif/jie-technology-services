@@ -1,5 +1,5 @@
 /* ============================================================
-   JI&E — i18n engine + shared (common) translations
+   Ji&E — i18n engine + shared (common) translations
    Pages append their own keys via:
      I18N.add({ en:{...}, fr:{...} })
    ============================================================ */
@@ -76,7 +76,7 @@ I18N.add({
     'foot.addr': 'Rabat, Morocco',
     'foot.phone': 'Phone number',
     'foot.email': 'Email',
-    'foot.rights': '© 2026 JI&E Technology Services. All rights reserved.',
+    'foot.rights': '© 2026 Ji&E Technology Services. All rights reserved.',
     'foot.owned': 'Jointly owned by Jilya Holding & Eltel Technologistics Ltd.',
     'foot.privacy': 'Privacy',
     'foot.terms': 'Terms',
@@ -119,7 +119,7 @@ I18N.add({
     'foot.addr': 'Rabat, Maroc',
     'foot.phone': 'Téléphone',
     'foot.email': 'E-mail',
-    'foot.rights': '© 2026 JI&E Technology Services. Tous droits réservés.',
+    'foot.rights': '© 2026 Ji&E Technology Services. Tous droits réservés.',
     'foot.owned': 'Détenue conjointement par Jilya Holding et Eltel Technologistics Ltd.',
     'foot.privacy': 'Confidentialité',
     'foot.terms': 'Conditions',

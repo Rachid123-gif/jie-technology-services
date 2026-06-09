@@ -1,5 +1,5 @@
 /* ============================================================
-   JI&E — site behaviour
+   Ji&E — site behaviour
    ============================================================ */
 (function () {
   'use strict';
@@ -35,8 +35,9 @@
     return `
     <header class="site-header" id="siteHeader">
       <div class="container">
-        <a href="index.html" class="brand" aria-label="JI&E Technology Services">
-          <img src="assets/img/logo-white.png" alt="JI&E Technology Services" />
+        <a href="index.html" class="brand" aria-label="Ji&E Technology Services">
+          <img class="logo-light" src="assets/img/logo-white.png" alt="Ji&E Technology Services" />
+          <img class="logo-dark" src="assets/img/logo-color.png" alt="" aria-hidden="true" />
         </a>
         <nav class="nav" id="primaryNav">${links}</nav>
         <div class="header-right">
@@ -60,7 +61,7 @@
       <div class="container">
         <div class="footer-top">
           <div class="footer-brand">
-            <img src="assets/img/logo-white.png" alt="JI&E Technology Services" />
+            <img src="assets/img/logo-white.png" alt="Ji&E Technology Services" />
             <p data-i18n="foot.tagline">…</p>
             <div class="socials">
               <a href="#" aria-label="LinkedIn">${ICONS.linkedin}</a>
@@ -89,14 +90,14 @@
           <div class="footer-col">
             <h5 data-i18n="foot.reach">Reach Us</h5>
             <ul class="footer-contact">
-              <li><span class="ic">${ICONS.pin}</span><span><strong>JI&E Technology Services</strong><br><span data-i18n="foot.addr">Rabat, Morocco</span></span></li>
-              <li><span class="ic">${ICONS.phone}</span><a href="tel:+212000000000">+212 (0)5 00 00 00 00</a></li>
-              <li><span class="ic">${ICONS.mail}</span><a href="mailto:contact@jie-techservices.com">contact@jie-techservices.com</a></li>
+              <li><span class="ic">${ICONS.pin}</span><span><strong>Ji&E Technology Services</strong><br><span data-i18n="foot.addr">Rabat, Morocco</span></span></li>
+              <li><span class="ic">${ICONS.phone}</span><a href="tel:+212668948084">+212 6 68 94 80 84</a></li>
+              <li><span class="ic">${ICONS.mail}</span><a href="mailto:contact@ji-e.com">contact@ji-e.com</a></li>
             </ul>
           </div>
         </div>
         <div class="footer-bottom">
-          <span data-i18n="foot.rights">© 2026 JI&E Technology Services.</span>
+          <span data-i18n="foot.rights">© 2026 Ji&E Technology Services.</span>
           <span data-i18n="foot.owned">Jointly owned by Jilya Holding &amp; Eltel Technologistics Ltd.</span>
         </div>
       </div>
