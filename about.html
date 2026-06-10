@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/style.css?v=2" />
+<link rel="stylesheet" href="assets/css/style.css?v=3" />
 </head>
 <body data-page="about">
 <div class="progress-bar"></div>
@@ -241,14 +241,26 @@
       <h2 data-i18n="about.part.title">Built on strong foundations</h2>
     </div>
     <div class="partner-grid">
-      <div class="partner reveal" data-delay="1">
-        <div class="partner__logo" style="background:linear-gradient(150deg,var(--navy-700),var(--navy-500))">JH</div>
-        <div><h4 data-i18n="about.part.jilya">Jilya Holding</h4><p data-i18n="about.part.jilya.text">A Moroccan investment holding driving industrial and technological growth across strategic sectors.</p></div>
-      </div>
-      <div class="partner reveal" data-delay="2">
-        <div class="partner__logo" style="background:linear-gradient(150deg,var(--green-700),var(--green))">ET</div>
-        <div><h4 data-i18n="about.part.eltel">Eltel Technologistics Ltd.</h4><p data-i18n="about.part.eltel.text">An international technology and logistics partner with deep expertise in defence and security systems.</p></div>
-      </div>
+      <a class="partner reveal" data-delay="1" href="https://www.jilya.org/main/" target="_blank" rel="noopener noreferrer">
+        <div class="partner__plate partner__plate--dark">
+          <img src="assets/img/partner-jilya.png" alt="Jilya Holding" loading="lazy" />
+        </div>
+        <div class="partner__body">
+          <h4 data-i18n="about.part.jilya">Jilya Holding</h4>
+          <p data-i18n="about.part.jilya.text">A Moroccan investment holding driving industrial and technological growth across strategic sectors.</p>
+          <span class="partner__link" data-i18n="about.part.visit">Visit website →</span>
+        </div>
+      </a>
+      <a class="partner reveal" data-delay="2" href="https://eltel.co.il/en/home/" target="_blank" rel="noopener noreferrer">
+        <div class="partner__plate partner__plate--light">
+          <img src="assets/img/partner-eltel.png" alt="Eltel Technologistics" loading="lazy" />
+        </div>
+        <div class="partner__body">
+          <h4 data-i18n="about.part.eltel">Eltel Technologistics Ltd.</h4>
+          <p data-i18n="about.part.eltel.text">An international technology and logistics partner with deep expertise in defence and security systems.</p>
+          <span class="partner__link" data-i18n="about.part.visit">Visit website →</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
@@ -256,7 +268,7 @@
 <div id="cta-band"></div>
 <div id="footer"></div>
 
-<script src="assets/js/i18n.js?v=2"></script>
+<script src="assets/js/i18n.js?v=3"></script>
 <script>
 I18N.add({
   en:{
@@ -314,7 +326,8 @@ I18N.add({
     'about.lead.c4.role':'Head of Aerospace','about.lead.c4.text':'Directs aerospace engineering, aircraft maintenance and ground support.',
     'about.part.eyebrow':'Strategic shareholders','about.part.title':'Built on strong foundations',
     'about.part.jilya':'Jilya Holding','about.part.jilya.text':'A Moroccan investment holding driving industrial and technological growth across strategic sectors.',
-    'about.part.eltel':'Eltel Technologistics Ltd.','about.part.eltel.text':'An international technology and logistics partner with deep expertise in defence and security systems.'
+    'about.part.eltel':'Eltel Technologistics Ltd.','about.part.eltel.text':'An international technology and logistics partner with deep expertise in defence and security systems.',
+    'about.part.visit':'Visit website →'
   },
   fr:{
     'meta.title':'À propos de Ji&E Technology Services — Qui sommes-nous',
@@ -371,10 +384,11 @@ I18N.add({
     'about.lead.c4.role':'Responsable Aérospatial','about.lead.c4.text':'Dirige l’ingénierie aérospatiale, la maintenance aéronautique et l’assistance au sol.',
     'about.part.eyebrow':'Actionnaires stratégiques','about.part.title':'Bâtie sur des fondations solides',
     'about.part.jilya':'Jilya Holding','about.part.jilya.text':'Un holding d’investissement marocain qui stimule la croissance industrielle et technologique dans des secteurs stratégiques.',
-    'about.part.eltel':'Eltel Technologistics Ltd.','about.part.eltel.text':'Un partenaire international en technologie et logistique, doté d’une forte expertise des systèmes de défense et de sécurité.'
+    'about.part.eltel':'Eltel Technologistics Ltd.','about.part.eltel.text':'Un partenaire international en technologie et logistique, doté d’une forte expertise des systèmes de défense et de sécurité.',
+    'about.part.visit':'Visiter le site →'
   }
 });
 </script>
-<script src="assets/js/main.js?v=2"></script>
+<script src="assets/js/main.js?v=3"></script>
 </body>
 </html>
