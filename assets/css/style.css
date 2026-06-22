@@ -617,9 +617,20 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus
 .partner p{color:var(--muted);font-size:.95rem}
 .partner__link{display:inline-flex;margin-top:14px;font-family:var(--font-head);font-weight:600;font-size:.9rem;color:var(--green-700);transition:gap .3s,transform .3s}
 .partner:hover .partner__link{transform:translateX(4px)}
+.partner-support{
+  display:flex;flex-direction:column;align-items:center;gap:18px;
+  margin-top:44px;padding-top:40px;text-align:center;
+  border-top:1px solid var(--line);
+}
+.partner-support__logo{height:60px;width:auto;max-width:240px;object-fit:contain}
+.partner-support p{
+  margin:0;font-family:var(--font-head);font-weight:600;
+  font-size:1.05rem;letter-spacing:.01em;color:var(--ink);
+}
 @media(max-width:560px){
   .partner{flex-direction:column;align-items:flex-start;text-align:left}
   .partner__plate{width:100%}
+  .partner-support__logo{height:50px}
 }
 /* certifications marquee */
 .marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
